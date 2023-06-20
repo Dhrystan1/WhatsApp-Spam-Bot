@@ -15,9 +15,9 @@ driver.get('https://web.whatsapp.com/')
 print("\n\nPlease MAXIMIZE the WhatsApp window before proceeding...")
 print("\n\nPlease ignore all warnings and enter name of user or group...\n\n")
 
-name = input('Enter the name of user or group: ')
-msg = input('Enter your message: ')
-count = int(input('Enter the count: '))
+name = input('Enter the name of user or group:Ashley ')
+msg = input('Enter your message:i love you ')
+count = int(input('Enter the count: 10 '))
 gap = float(input('Interval (in seconds) between messages: '))
 bot_prompt = input('Do you want to add bot prompt to your message? (Y/N) ').upper()
 
